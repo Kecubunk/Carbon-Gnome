@@ -1,0 +1,16 @@
+#!/bin/bash
+set -e
+
+URL="https://github.com/Kecubunk/Carbon-Gnome/releases/download/V5.0/carbon-gnome_5.0.0_amd64.deb"
+TMP="/tmp/app.deb"
+
+echo "Downloading..."
+curl -fL "$URL" -o "$TMP"
+
+echo "Installing..."
+sudo apt install -y "$TMP"
+
+rm -f "$TMP"
+
+echo "Installation complete."
+
