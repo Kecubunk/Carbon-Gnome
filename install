@@ -9,7 +9,7 @@ FILENAME="${APP_NAME}_${VERSION}_${ARCH}.deb"
 #DOWNLOAD_URL="https://github.com/Kecubunk/Carbon-Gnome/releases/download/V5.0/${FILENAME}"
 
 # Update to V5.0.5
-DOWNLOAD_URL="https://github.com/Kecubunk/Carbon-Gnome/releases/download/V5.0.5/${FILENAME}"
+DOWNLOAD_URL="https://github.com/Kecubunk/Carbon-Gnome/releases/download/V5.0/${FILENAME}"
 
 DOWNLOAD_PATH="$HOME/$FILENAME"
 
