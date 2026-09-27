@@ -30,3 +30,9 @@ Adding Carbon-Gnome For Carbon-OS
 <p >
   <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/win11-style.png"/>
 </p>
+
+# How To Install 
+$ sudo dpkg - i  carbon-gnome_5.0.0_amd64.deb
+
+# How to remove
+$ sudo apt purge --autoremove carbon-gnome
