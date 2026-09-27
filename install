@@ -1,16 +1,75 @@
 #!/bin/bash
 set -e
 
-URL="https://github.com/Kecubunk/Carbon-Gnome/releases/download/V5.0/carbon-gnome_5.0.0_amd64.deb"
-TMP="$HOME/$USER/carbon-gnome.deb"
+APP_NAME="carbon-gnome"
+VERSION="5.0.0"
+ARCH="amd64"
 
-echo "Downloading..."
-curl -fL "$URL" -o "$TMP"
+FILENAME="${APP_NAME}_${VERSION}_${ARCH}.deb"
+DOWNLOAD_URL="https://github.com/Kecubunk/Carbon-Gnome/releases/download/V5.0/${FILENAME}"
 
-echo "Installing..."
-sudo apt install -y "$TMP"
+DOWNLOAD_PATH="$HOME/$FILENAME"
 
-rm -f "$TMP"
+echo "========================================"
+echo "       Carbon-Gnome Installer"
+echo "========================================"
+echo
 
-echo "Installation complete."
+# Cek apakah curl tersedia
+if ! command -v curl >/dev/null 2>&1; then
+    echo "Error: curl belum terinstall."
+    echo
+    echo "Install dengan:"
+    echo "sudo apt update && sudo apt install -y curl"
+    exit 1
+fi
+
+# Cek architecture
+SYSTEM_ARCH="$(dpkg --print-architecture)"
+
+if [ "$SYSTEM_ARCH" != "$ARCH" ]; then
+    echo "Error: architecture tidak didukung."
+    echo "System : $SYSTEM_ARCH"
+    echo "Required: $ARCH"
+    exit 1
+fi
+
+echo "Architecture : $SYSTEM_ARCH"
+echo "Version      : $VERSION"
+echo "Download     : $DOWNLOAD_PATH"
+echo
+
+# Download
+echo "[1/2] Downloading Carbon-Gnome..."
+
+curl -fL \
+    --progress-bar \
+    "$DOWNLOAD_URL" \
+    -o "$DOWNLOAD_PATH"
+
+# Pastikan file berhasil dibuat
+if [ ! -f "$DOWNLOAD_PATH" ]; then
+    echo
+    echo "Error: file .deb tidak ditemukan setelah download."
+    exit 1
+fi
+
+echo
+echo "Download selesai:"
+echo "$DOWNLOAD_PATH"
+echo
+
+# Install
+echo "[2/2] Installing Carbon-Gnome..."
+
+sudo apt install -y "$DOWNLOAD_PATH"
+
+echo
+echo "========================================"
+echo " Carbon-Gnome berhasil diinstall!"
+echo "========================================"
+echo
+echo "File .deb:"
+echo "$DOWNLOAD_PATH"
+echo
 
