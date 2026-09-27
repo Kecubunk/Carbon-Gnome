@@ -1,6 +1,11 @@
 # Carbon-Gnome
 Adding Carbon-Gnome For Carbon-OS Debian 13 Trixie
 
+# Feature
+- Useful extensions added
+- Carbon-Assistant Animation and support ollama
+- Carbon-Kernel-Manager 
+
 # Gnome-Style
 <p >
   <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/gnome-style.png"/>
