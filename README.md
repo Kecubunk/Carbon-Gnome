@@ -1,5 +1,5 @@
 # Carbon-Gnome
-Adding Carbon-Gnome For Carbon-OS
+Adding Carbon-Gnome For Carbon-OS Debian 13 Trixie
 
 # Gnome-Style
 <p >
