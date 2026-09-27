@@ -6,7 +6,7 @@ VERSION="5.0.0"
 ARCH="amd64"
 
 FILENAME="${APP_NAME}_${VERSION}_${ARCH}.deb"
-DOWNLOAD_URL="https://github.com/Kecubunk/Carbon-Gnome/releases/download/V5.0/${FILENAME}"
+DOWNLOAD_URL="https://github.com/Kecubunk/Carbon-Gnome/releases/download/${VERSION}/${FILENAME}"
 
 DOWNLOAD_PATH="$HOME/$FILENAME"
 
