@@ -21,8 +21,12 @@ Adding Carbon-Gnome For Carbon-OS
   <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/unity-style.png"/>
 </p>
 
-
 # Win-Style
 <p >
   <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/win-style.png"/>
+</p>
+
+# Win11-Style
+<p >
+  <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/win11-style.png"/>
 </p>
