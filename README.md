@@ -22,7 +22,7 @@ Adding Carbon-Gnome For Carbon-OS
 </p>
 
 
-# Budgie-Style
+# Win-Style
 <p >
-  <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/budgie-style.png"/>
+  <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/win-style.png"/>
 </p>
