@@ -36,6 +36,9 @@ Adding Carbon-Gnome For Carbon-OS Debian 13 Trixie
   <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/win11-style.png"/>
 </p>
 
+# Carbon-Assistant
+Adding visual and voice Assistant  support local LLM ollama 
+
 <p >
 <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/Screenshot%20From%202026-09-27%2001-39-54.png">
 </p>
