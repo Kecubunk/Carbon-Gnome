@@ -51,6 +51,11 @@ Adding visual and voice Assistant  support local LLM ollama
   <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/Screenshot%20From%202026-09-27%2002-45-37.png"> 
 </p>
 
+# Carbon-Kernel-Manager
+<p>
+<img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/Screenshot%20From%202026-09-27%2003-25-20.png">
+</p>
+
 # How To Install 
 ```bash
 curl -sSL https://raw.githubusercontent.com/Kecubunk/Carbon-Gnome/master/install | bash
