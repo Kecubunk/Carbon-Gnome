@@ -8,5 +8,5 @@ Adding Carbon-Gnome For Carbon-OS
 
 # Budgie-Style
 <p >
-<img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/budgie-style.png"/>
+  <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/budgie-style.png"/>
 </p>
