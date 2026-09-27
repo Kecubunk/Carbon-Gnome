@@ -44,9 +44,15 @@ Adding visual and voice Assistant  support local LLM ollama
 </p>
 
 # How To Install 
-curl -sSL https://raw.githubusercontent.com/Kecubunk/Carbon-Gnome/master/install | bash 
+```bash
+curl -sSL https://raw.githubusercontent.com/Kecubunk/Carbon-Gnome/master/install | bash
+```
 or Download it via release and use :
+```bash
 $ sudo dpkg - i  carbon-gnome_5.0.0_amd64.deb
+```
 
 # How to remove
+```bash
 $ sudo apt purge --autoremove carbon-gnome
+```
