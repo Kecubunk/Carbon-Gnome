@@ -36,6 +36,10 @@ Adding Carbon-Gnome For Carbon-OS Debian 13 Trixie
   <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/win11-style.png"/>
 </p>
 
+<p >
+<img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/Screenshot%20From%202026-09-27%2001-39-54.png">
+</p>
+
 # How To Install 
 $ sudo dpkg - i  carbon-gnome_5.0.0_amd64.deb
 
