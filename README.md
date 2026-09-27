@@ -40,9 +40,15 @@ Adding Carbon-Gnome For Carbon-OS Debian 13 Trixie
 Adding visual and voice Assistant  support local LLM ollama 
 
 <p >
-<img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/Screenshot%20From%202026-09-27%2001-39-54.png">
-<img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/Screenshot%20From%202026-09-27%2002-45-02.png"> 
-<img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/Screenshot%20From%202026-09-27%2002-45-37.png"> 
+  <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/Screenshot%20From%202026-09-27%2001-39-54.png">
+</p>
+
+<p>
+  <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/Screenshot%20From%202026-09-27%2002-45-02.png"> 
+</p>
+
+<p >
+  <img src="https://github.com/Kecubunk/Carbon-Gnome/blob/master/screenshot/Screenshot%20From%202026-09-27%2002-45-37.png"> 
 </p>
 
 # How To Install 
