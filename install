@@ -2,7 +2,7 @@
 set -e
 
 APP_NAME="carbon-gnome"
-VERSION="5.0.5"
+VERSION="5.0"
 ARCH="amd64"
 
 FILENAME="${APP_NAME}_${VERSION}_${ARCH}.deb"
