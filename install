@@ -6,10 +6,7 @@ VERSION="8.5.0"
 ARCH="amd64"
 
 FILENAME="${APP_NAME}_${VERSION}_${ARCH}.deb"
-#DOWNLOAD_URL="https://github.com/Kecubunk/Carbon-Gnome/releases/download/V5.0/${FILENAME}"
-
-# Update to V8.5.0
-DOWNLOAD_URL="https://github.com/Kecubunk/Carbon-Gnome/releases/download/V8.5.0/${FILENAME}"
+DOWNLOAD_URL="https://github.com/Kecubunk/Carbon-Gnome/releases/download/V1.0.0/${FILENAME}"
 
 DOWNLOAD_PATH="$HOME/$FILENAME"
 
